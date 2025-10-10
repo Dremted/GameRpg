@@ -7,7 +7,7 @@ public class Player_Combat : MonoBehaviour
     Animator animator;
     public Transform pointAttack;
     public LayerMask enemyLayer;
-
+    public StatsPlayerUI statsUI;
 
     private void Awake()
     {
@@ -32,6 +32,8 @@ public class Player_Combat : MonoBehaviour
 
     public void DealDamage()
     {
+        ManagerStatsPlayer.Instance.damage += 1;
+        statsUI.UpdateDamage();
         Collider2D[] enemies = Physics2D.OverlapCircleAll(pointAttack.position, ManagerStatsPlayer.Instance.weaponRadius, enemyLayer);
         if (enemies.Length > 0)
         {
@@ -52,6 +54,8 @@ public class Player_Combat : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if (pointAttack == null)
+            return;
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(pointAttack.position, ManagerStatsPlayer.Instance.weaponRadius);
     }

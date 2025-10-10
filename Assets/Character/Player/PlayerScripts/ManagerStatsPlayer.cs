@@ -13,7 +13,7 @@ public class ManagerStatsPlayer : MonoBehaviour
     public float forceKnockback;
     public float knockbackTime;
 
-    public float weaponRadius;
+    public float weaponRadius = 1;
     public float timeStun;
 
     public float coldown;
