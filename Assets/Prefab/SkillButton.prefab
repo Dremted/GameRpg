@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 23, y: -35}
-  m_SizeDelta: {x: 45, y: 22}
+  m_SizeDelta: {x: 70, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3800053003865922952
 CanvasRenderer:
@@ -346,7 +346,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillSO: {fileID: 0}
+  currentLevel: 0
+  isUnlocked: 0
   skillIcon: {fileID: 2377305585313903635}
+  skillButton: {fileID: 5334937732853319589}
+  skillLevelText: {fileID: 508937726512083655}
 --- !u!1 &6139471030172589567
 GameObject:
   m_ObjectHideFlags: 0
