@@ -51,7 +51,7 @@ public class SkillTreeManager : MonoBehaviour
         foreach(SkillSlot slot in skillSlots)
         {
             if(!slot.isUnlocked && slot.CanUnlockSkill())
-            slot.Unlock();
+                slot.Unlock();
         }
     }
 
