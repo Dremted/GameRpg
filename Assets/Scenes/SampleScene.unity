@@ -799,10 +799,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 0d880498502f61d4ba9796fc416ca423, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 881156544}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -887,9 +911,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_10
+      value: Health_4lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1297,6 +1325,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f7d9b2a463862e4e936e0047cedeead, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1848244280}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f56f63d59f9cbc48adf41935b3dd1be, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1381,9 +1441,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_8
+      value: ToxicMagic_3vlv
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1505,10 +1569,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 7a5761edaab06304fb19ebd361da9ab0, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 2139281105}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 094b28fb0fd9c684496a436ee8655d29, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1593,9 +1685,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_3
+      value: FireMagic_2lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4642,10 +4738,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 9333e3357fdae50408ae5c4465ad6dfa, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1127993635}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75b7ae07b4fd86e4483efd20d2300c6e, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4730,9 +4854,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_11
+      value: Attack_4lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4841,10 +4969,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 0d880498502f61d4ba9796fc416ca423, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1543315221}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4929,9 +5081,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_7
+      value: Health_3lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5099,6 +5255,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: 0/3
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
@@ -5107,6 +5267,18 @@ PrefabInstance:
       propertyPath: isUnlocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1964923550}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75b7ae07b4fd86e4483efd20d2300c6e, type: 3}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5193,7 +5365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_2
+      value: Attack_1lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5224,10 +5396,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 1c772cf4337582740849692b77b9489e, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 51465103942297055}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5db64017abca9f04d947926b4806f08d, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5312,9 +5512,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_3
+      value: Speed_2lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5389,10 +5593,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 9333e3357fdae50408ae5c4465ad6dfa, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 752969112}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75b7ae07b4fd86e4483efd20d2300c6e, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5477,9 +5709,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_5
+      value: Attack_2lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6358,10 +6594,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 9333e3357fdae50408ae5c4465ad6dfa, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1964923550}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75b7ae07b4fd86e4483efd20d2300c6e, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6446,9 +6710,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_8
+      value: Attack_3lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7411,7 +7679,7 @@ Tilemap:
       - {fileID: 1552142791, guid: 9f03a0a7fefeaf94f8b10b2f4d154e39, type: 3}
       - {fileID: 1486841235, guid: 9f03a0a7fefeaf94f8b10b2f4d154e39, type: 3}
       - {fileID: -476677590, guid: 9f03a0a7fefeaf94f8b10b2f4d154e39, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 8, y: -9, z: 0}
@@ -8142,6 +8410,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: 0/1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f7d9b2a463862e4e936e0047cedeead, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f56f63d59f9cbc48adf41935b3dd1be, type: 3}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -8228,7 +8512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_2
+      value: ToxicMagic_1vlv
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11076,7 +11360,7 @@ Tilemap:
       - {fileID: 720723151, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -965326213, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -1266431036, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 11, y: -16, z: 0}
@@ -12066,7 +12350,7 @@ Tilemap:
       - {fileID: -158660597, guid: 9dfde5c6c05cd0b47836d852d6b25ba0, type: 3}
       - {fileID: 51946715, guid: 9dfde5c6c05cd0b47836d852d6b25ba0, type: 3}
       - {fileID: -1202003857, guid: 9dfde5c6c05cd0b47836d852d6b25ba0, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -24, y: -7, z: 0}
@@ -12441,7 +12725,7 @@ Tilemap:
       - {fileID: -1345770358, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
       - {fileID: 361380989, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
       - {fileID: -1201737941, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -29, y: 0, z: 0}
@@ -12516,7 +12800,7 @@ Tilemap:
       - {fileID: -526686625, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -1533519386, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: 1094000096, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -25, y: 2, z: 0}
@@ -12891,7 +13175,7 @@ Tilemap:
       - {fileID: -683346381, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -86185249, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: 667875125, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 8, z: 0}
@@ -13161,7 +13445,7 @@ Tilemap:
       - {fileID: 2136496449, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
       - {fileID: 739326098, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
       - {fileID: 122198872, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 26, y: 11, z: 0}
@@ -13356,7 +13640,7 @@ Tilemap:
       - {fileID: 1440290406, guid: 7c1e37304fa65db4fac341a003a06f7f, type: 3}
       - {fileID: 1726533082, guid: 7c1e37304fa65db4fac341a003a06f7f, type: 3}
       - {fileID: -1202756840, guid: 7c1e37304fa65db4fac341a003a06f7f, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 14, z: 0}
@@ -13701,7 +13985,7 @@ Tilemap:
       - {fileID: -683346381, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -86185249, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: 667875125, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 10, y: 17, z: 0}
@@ -13821,7 +14105,7 @@ Tilemap:
       - {fileID: 943677125, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
       - {fileID: -617109333, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
       - {fileID: 1018016429, guid: 37a89cd5edd573144add0e35b4ff2f66, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -5, y: 18, z: 0}
@@ -14301,7 +14585,7 @@ Tilemap:
       - {fileID: 165145425, guid: 9dfde5c6c05cd0b47836d852d6b25ba0, type: 3}
       - {fileID: 1863024176, guid: 9dfde5c6c05cd0b47836d852d6b25ba0, type: 3}
       - {fileID: -903514359, guid: 9dfde5c6c05cd0b47836d852d6b25ba0, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 2, y: 21, z: 0}
@@ -14590,6 +14874,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f7d9b2a463862e4e936e0047cedeead, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 811949418}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f56f63d59f9cbc48adf41935b3dd1be, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -14674,9 +14990,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_11
+      value: ToxicMagic_4vlv
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14820,6 +15140,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: 0/2
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
@@ -14828,6 +15152,10 @@ PrefabInstance:
       propertyPath: isUnlocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b270e4d10db7524b84cd47f5ac39b66, type: 3}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -14914,7 +15242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_1
+      value: IceMagic_1lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15226,10 +15554,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: e6e2dfd9b61621c49ad774dfa166da03, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 2077314177}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b270e4d10db7524b84cd47f5ac39b66, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -15314,9 +15670,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_10
+      value: IceMagic_4lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15420,10 +15780,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 1c772cf4337582740849692b77b9489e, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1577604631}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5db64017abca9f04d947926b4806f08d, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -15508,9 +15896,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_9
+      value: Speed_4lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16182,7 +16574,7 @@ Tilemap:
       - {fileID: 720723151, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -965326213, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -1266431036, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 9, y: -14, z: 0}
@@ -16542,7 +16934,7 @@ Tilemap:
       - {fileID: -199666526, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -1883798447, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: 434292957, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -25, y: 1, z: 0}
@@ -16872,7 +17264,7 @@ Tilemap:
       - {fileID: -526686625, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: -1533519386, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
       - {fileID: 1094000096, guid: 6b4548eab74f95340ba9f043cbe239ea, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -16959,6 +17351,14 @@ PrefabInstance:
       propertyPath: currentLevel
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1543315221}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -17045,7 +17445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_1
+      value: Health_1lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17076,6 +17476,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f7d9b2a463862e4e936e0047cedeead, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1075589306}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f56f63d59f9cbc48adf41935b3dd1be, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -17160,9 +17592,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_5
+      value: ToxicMagic_2vlv
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17182,6 +17618,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
@@ -17189,6 +17629,26 @@ PrefabInstance:
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: isUnlocked
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490897024}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
@@ -17274,9 +17734,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_4
+      value: Health_2lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18622,10 +19086,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443415141}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 1c772cf4337582740849692b77b9489e, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 809837943}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5db64017abca9f04d947926b4806f08d, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -18710,9 +19202,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_6
+      value: Speed_3lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18743,10 +19239,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 7a5761edaab06304fb19ebd361da9ab0, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1016043245}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 094b28fb0fd9c684496a436ee8655d29, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -18831,9 +19355,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_6
+      value: FireMagic_3lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32624,10 +33152,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: 7a5761edaab06304fb19ebd361da9ab0, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1828088057}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 094b28fb0fd9c684496a436ee8655d29, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -32712,9 +33268,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_9
+      value: FireMagic_4lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33061,10 +33621,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: e6e2dfd9b61621c49ad774dfa166da03, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1265872265}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b270e4d10db7524b84cd47f5ac39b66, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -33149,9 +33737,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_4
+      value: IceMagic_2lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33213,10 +33805,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701864202}
     m_Modifications:
+    - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_text
+      value: Locked
+      objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
       value: 
       objectReference: {fileID: 11400000, guid: e6e2dfd9b61621c49ad774dfa166da03, type: 2}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 2042212227}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b270e4d10db7524b84cd47f5ac39b66, type: 3}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -33301,9 +33921,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSkills
       objectReference: {fileID: 0}
+    - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton_7
+      value: IceMagic_3lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33532,7 +34156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: FireMagic
+      value: FireMagic_1lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33565,7 +34189,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 508937726512083655, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_text
-      value: Locked
+      value: 0/4
       objectReference: {fileID: 0}
     - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: skillSO
@@ -33579,17 +34203,29 @@ PrefabInstance:
       propertyPath: currentLevel
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377134375611864605, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: prerequisiteSkillSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 809837943}
+    - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5db64017abca9f04d947926b4806f08d, type: 3}
     - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Color.b
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Color.g
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2377305585313903635, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Color.r
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2947930200764518379, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Pivot.x
@@ -33677,11 +34313,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5334937732853319589, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6012578194825155902, guid: f51677b5f949af04d8ea00a148e06b3e, type: 3}
       propertyPath: m_Name
-      value: SkillButton
+      value: Speed_1lvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

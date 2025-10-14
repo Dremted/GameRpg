@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1cf192912b41c8439431e9fd794651f, type: 3}
   m_Name: MaxToxicBoost
   m_EditorClassIdentifier: 
-  skillName: 
-  maxLevel: 0
-  skillIcon: {fileID: 0}
+  skillName: Max Toxic Boost
+  maxLevel: 1
+  skillIcon: {fileID: 21300000, guid: 7f56f63d59f9cbc48adf41935b3dd1be, type: 3}
