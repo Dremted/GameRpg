@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -13,6 +14,8 @@ public class ManagerExp : MonoBehaviour
     public float expGrowthMultiplier = 1.2f;
     public Slider expSlider;
     public TMP_Text currentLevelText;
+
+    public static event Action<int> OnLevelUp;
 
     private void Start()
     {
@@ -43,6 +46,7 @@ public class ManagerExp : MonoBehaviour
         level++;
         currentExp -= expToLevel;
         expToLevel = Mathf.RoundToInt(expToLevel * expGrowthMultiplier);
+        OnLevelUp?.Invoke(1);
     }
 
     public void UpdateUI()

@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ManagerStatsPlayer : MonoBehaviour
 {
     public static ManagerStatsPlayer Instance;
+    public TMP_Text textMaxHealth;
 
     [Header("Move Stats")]
     public float speedPlayer;
@@ -35,5 +37,11 @@ public class ManagerStatsPlayer : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void AddMaxHealth(int amount)
+    {
+        maxHealth += amount;
+        textMaxHealth.text = "HP: " + currentHealth + "/" + maxHealth;
     }
 }

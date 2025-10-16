@@ -21,7 +21,7 @@ public class Player_Combat : MonoBehaviour
 
     public void Attack()
     {
-        if (ManagerStatsPlayer.Instance.timer <= 0)
+        if (ManagerStatsPlayer.Instance.timer <= 0 && this.enabled == true)
         {
             animator.SetBool("isAttacking", true);
 
