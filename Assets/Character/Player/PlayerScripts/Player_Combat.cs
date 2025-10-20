@@ -52,11 +52,4 @@ public class Player_Combat : MonoBehaviour
         animator.SetBool("isAttacking", false);
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        if (pointAttack == null)
-            return;
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(pointAttack.position, ManagerStatsPlayer.Instance.weaponRadius);
-    }
 }
