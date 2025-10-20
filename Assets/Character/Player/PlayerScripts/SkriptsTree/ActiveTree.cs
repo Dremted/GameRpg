@@ -14,7 +14,7 @@ public class ActiveTree : MonoBehaviour
         {
             canvasTree.alpha = 1;
             canvasTree.interactable = true;
-            canvasTree.blocksRaycasts = false;
+            canvasTree.blocksRaycasts = true;
             Time.timeScale = 0;
             isActive = true;
         }

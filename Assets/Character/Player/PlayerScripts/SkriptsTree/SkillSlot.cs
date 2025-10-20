@@ -30,6 +30,7 @@ public class SkillSlot : MonoBehaviour
     }
     public void TryUpgradeSkill()
     {
+        Debug.Log("LevelUp");
         if(isUnlocked && currentLevel < skillSO.maxLevel)
         {
             currentLevel++;

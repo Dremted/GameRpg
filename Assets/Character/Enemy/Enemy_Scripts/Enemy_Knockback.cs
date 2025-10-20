@@ -13,11 +13,11 @@ public class Enemy_Knockback : MonoBehaviour
         enemy_Moving = GetComponent<Enemy_Moving>();
     }
 
-    public void Knockback(Transform playerPosition, float forceKnockback, float knockbackTime, float stunTime)
+    public void Knockback(Transform forceTransform, float forceKnockback, float knockbackTime, float stunTime)
     {
         enemy_Moving.ChangeState(EnemyState.Knockback);
         StartCoroutine(StunTimer(knockbackTime, stunTime));
-        Vector2 direction = (transform.position - playerPosition.position).normalized;
+        Vector2 direction = (transform.position - forceTransform.position).normalized;
         _rb.velocity = direction * forceKnockback;
     }
 
