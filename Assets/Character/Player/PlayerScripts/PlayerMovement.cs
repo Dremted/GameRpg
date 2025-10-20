@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Vector2 moveInput;  //Вектор движения изменяется при нажатии
+    public Vector2 moveInput;  //Вектор движения изменяется при нажатии
     private Rigidbody2D rb;
     private Animator animator;
     private bool isKnockeBack;
