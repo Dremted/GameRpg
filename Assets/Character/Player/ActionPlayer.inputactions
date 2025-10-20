@@ -50,6 +50,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "FireBow",
+                    "type": "Button",
+                    "id": "1989d999-7fb2-4f09-8a9f-d49e7b2d657a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -292,6 +301,17 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "MenuStats",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f514e2a-9b60-4443-bc09-7dcffa4ac298",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "FireBow",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
