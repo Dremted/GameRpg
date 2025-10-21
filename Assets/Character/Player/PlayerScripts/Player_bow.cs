@@ -9,6 +9,8 @@ public class Player_bow : MonoBehaviour
     public GameObject prefabArrow;
     public PlayerMovement player;
 
+    public Animator animator;
+
     public float timerFire = 1f;
 
     private void Update()
@@ -16,15 +18,30 @@ public class Player_bow : MonoBehaviour
         timerFire -= Time.deltaTime;
     }
 
+    private void OnEnable()
+    {
+        animator.SetLayerWeight(0, 0);
+        animator.SetLayerWeight(1, 1);
+    }
+
+    private void OnDisable()
+    {
+        animator.SetLayerWeight(0, 1);
+        animator.SetLayerWeight(1, 0);
+    }
+
     public void Shoot(InputAction.CallbackContext callback)
     {
         if (callback.performed && timerFire <= 0)
         {
+            animator.SetBool("isShooting", true);
 
             Arrow arrow = Instantiate(prefabArrow, posBow.position, Quaternion.identity).GetComponent<Arrow>();
             if (player.moveInput.x != 0 || player.moveInput.y != 0)
             {
                 arrow.direction = player.moveInput;
+                animator.SetFloat("aimX", player.moveInput.x);
+                animator.SetFloat("aimY", player.moveInput.y);
             }
             else
             {
@@ -38,6 +55,7 @@ public class Player_bow : MonoBehaviour
                 }
             }
             timerFire = 1f;
+            animator.SetBool("isShooting", false);
         }
     }
 
