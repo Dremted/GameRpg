@@ -39,7 +39,6 @@ public class Player_bow : MonoBehaviour
             }
             timerFire = 1f;
         }
-
     }
 
 }

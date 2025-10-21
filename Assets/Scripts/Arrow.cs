@@ -12,6 +12,10 @@ public class Arrow : MonoBehaviour
     public int damage = 1;
 
     public LayerMask enemyLayer;
+    public LayerMask obstacleLayer;
+
+    public SpriteRenderer sr;
+    public Sprite buriedSprite;
 
     public float forceKnockback;
     public float timeKnockback;
@@ -32,10 +36,25 @@ public class Arrow : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if((enemyLayer.value & (1<< collision.gameObject.layer)) > 0)
+        if((enemyLayer.value & (1 << collision.gameObject.layer)) > 0)
         {
             collision.gameObject.GetComponent<Enemy_Health>().ChangeHealth(-damage);
             collision.gameObject.GetComponent<Enemy_Knockback>().Knockback(transform, forceKnockback, timeKnockback, stun);
+            AttachToTarget(collision.gameObject.transform);
         }
+        else if((obstacleLayer.value & (1<<collision.gameObject.layer)) > 0)
+        {
+            AttachToTarget(collision.gameObject.transform);
+        }
+    }
+
+    private void AttachToTarget(Transform target)
+    {
+        sr.sprite = buriedSprite;
+
+        rb.velocity = Vector2.zero;
+        rb.isKinematic = true;
+
+        transform.SetParent(target);
     }
 }
