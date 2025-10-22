@@ -68,6 +68,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Change_Role",
+                    "type": "Button",
+                    "id": "ae1d330c-c04c-42bf-86b9-ee75b48d06d2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -332,6 +341,17 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "BowAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f3f27275-d881-47e7-98f6-51a93bf0e9e9",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Change_Role",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

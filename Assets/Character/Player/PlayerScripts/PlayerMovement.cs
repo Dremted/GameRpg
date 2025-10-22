@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private bool isKnockeBack;
-
+    public bool isShooting;
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -35,7 +35,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate() //Само движение
     {
-        if (isKnockeBack == false)
+        if(isShooting == true)
+        {
+            rb.velocity = Vector3.zero;
+        }
+        else if (isKnockeBack == false)
         {
             rb.velocity = moveInput * ManagerStatsPlayer.Instance.speedPlayer;
 
