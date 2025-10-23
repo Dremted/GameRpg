@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be4b239cdcc9e1142b3021584518de17, type: 3}
-  m_Name: Mushroom
+  m_Name: Gold
   m_EditorClassIdentifier: 
-  itemName: Mushroom
-  itemDescription: It`s mushroom?
-  itemSprite: {fileID: 21300000, guid: 777f6988aca01e1428de13c197cc6b7c, type: 3}
-  isGold: 0
+  itemName: Gold
+  itemDescription: Yeeeeee it`s GOLD!
+  itemSprite: {fileID: 21300000, guid: 45e6e4dcb7bf3604bab35ffed3122e84, type: 3}
+  isGold: 1
   currentHealth: 0
   maxHealth: 0
   speed: 0
