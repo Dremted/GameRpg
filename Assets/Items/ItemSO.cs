@@ -20,5 +20,5 @@ public class ItemSO : ScriptableObject
 
     [Header("ForTemporareItem")]
 
-    public float Duration;
+    public float duration;
 }
