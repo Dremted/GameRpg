@@ -8,6 +8,7 @@ public class ItemSO : ScriptableObject
     public string itemName;
     [TextArea] public string itemDescription;
     public Sprite itemSprite;
+    public int stackSize;
 
     public bool isGold;
 

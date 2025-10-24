@@ -49,6 +49,8 @@ public class ManagerStatsPlayer : MonoBehaviour
     public void AddHealth(int amount)
     {
         currentHealth += amount;
+        if(currentHealth >= maxHealth) 
+            currentHealth = maxHealth;
         textHealth.text = "HP: " + currentHealth + "/" + maxHealth;
     }
 

@@ -9,7 +9,7 @@ public class ManagerInventory : MonoBehaviour
     public SlotInventory[] itemSlots;
     public int gold;
     public TMP_Text textGold;
-
+    public UseItem useItem;
 
     private void Start()
     {
@@ -36,8 +36,19 @@ public class ManagerInventory : MonoBehaviour
             textGold.text = gold.ToString();
             return;
         }
-        else
+
+        foreach (var slot in itemSlots)
         {
+            if(slot.itemSO == itemSO && slot.quantity < itemSO.stackSize)
+            {
+                int availableSpace = itemSO.stackSize - slot.quantity;
+                int amountToAdd = Mathf.Min(availableSpace, quantity);
+
+                slot.quantity = amountToAdd;
+                quantity -= amountToAdd;
+            }
+        }
+
             foreach (var slot in itemSlots)
             {
                 if (slot.itemSO == null)
@@ -49,14 +60,20 @@ public class ManagerInventory : MonoBehaviour
                 }
             }
             
-        }
     }
 
     public void UseItem(SlotInventory slot)
     {
         if (slot.itemSO != null && slot.quantity >= 0)
         {
+            useItem.ApplyItemEffect(slot.itemSO);
 
+            slot.quantity--;
+            if(slot.quantity <= 0)
+            {
+                slot.itemSO = null;
+            }
+            slot.UpdateUI();
         }
     }
 }

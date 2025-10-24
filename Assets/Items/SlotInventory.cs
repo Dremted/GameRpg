@@ -13,7 +13,7 @@ public class SlotInventory : MonoBehaviour, IPointerClickHandler
 
     public Image itemImage;
     public TMP_Text quantityText;
-    ManagerInventory inventoryManager;
+    [SerializeField]private ManagerInventory inventoryManager;
 
     private void Start()
     {
@@ -26,6 +26,9 @@ public class SlotInventory : MonoBehaviour, IPointerClickHandler
         {
             if (eventData.button == PointerEventData.InputButton.Left)
             {
+                if(itemSO.currentHealth > 0 && ManagerStatsPlayer.Instance.currentHealth >= ManagerStatsPlayer.Instance.maxHealth)
+                    return;
+
                 inventoryManager.UseItem(this);
             }
         }

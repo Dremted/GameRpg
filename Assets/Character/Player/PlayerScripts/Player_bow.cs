@@ -32,7 +32,7 @@ public class Player_bow : MonoBehaviour
 
     public void OnShoot(InputAction.CallbackContext callback)
     {
-        if (callback.performed && timerFire <= 0)
+        if (callback.performed && timerFire <= 0 && this.enabled == true)
         {
             animator.SetBool("isShooting", true);
             player.isShooting = true;
