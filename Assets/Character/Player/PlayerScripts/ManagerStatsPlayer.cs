@@ -6,7 +6,8 @@ using UnityEngine;
 public class ManagerStatsPlayer : MonoBehaviour
 {
     public static ManagerStatsPlayer Instance;
-    public TMP_Text textMaxHealth;
+    public TMP_Text textHealth;
+    public StatsPlayerUI statsPlayerUI;
 
     [Header("Move Stats")]
     public float speedPlayer;
@@ -42,6 +43,18 @@ public class ManagerStatsPlayer : MonoBehaviour
     public void AddMaxHealth(int amount)
     {
         maxHealth += amount;
-        textMaxHealth.text = "HP: " + currentHealth + "/" + maxHealth;
+        textHealth.text = "HP: " + currentHealth + "/" + maxHealth;
+    }
+
+    public void AddHealth(int amount)
+    {
+        currentHealth += amount;
+        textHealth.text = "HP: " + currentHealth + "/" + maxHealth;
+    }
+
+    public void AddSpeed(int amount)
+    {
+        speedPlayer += amount;
+        statsPlayerUI.UpdateAllStats();
     }
 }
