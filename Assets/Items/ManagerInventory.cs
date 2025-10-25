@@ -10,6 +10,8 @@ public class ManagerInventory : MonoBehaviour
     public int gold;
     public TMP_Text textGold;
     public UseItem useItem;
+    public GameObject lootPrefab;
+    public Transform player;
 
     private void Start()
     {
@@ -44,8 +46,12 @@ public class ManagerInventory : MonoBehaviour
                 int availableSpace = itemSO.stackSize - slot.quantity;
                 int amountToAdd = Mathf.Min(availableSpace, quantity);
 
-                slot.quantity = amountToAdd;
+                slot.quantity += amountToAdd;
                 quantity -= amountToAdd;
+
+                slot.UpdateUI();
+                if(quantity <= 0)
+                    return;
             }
         }
 
@@ -53,13 +59,33 @@ public class ManagerInventory : MonoBehaviour
             {
                 if (slot.itemSO == null)
                 {
+                    int amountToAdd = Mathf.Min(itemSO.stackSize, quantity);
                     slot.itemSO = itemSO;
                     slot.quantity = quantity;
                     slot.UpdateUI();
                     return;
                 }
             }
-            
+        if (quantity > 0)
+            DropLoot(itemSO, quantity);
+    }
+
+    public void DropItem(SlotInventory slot)
+    {
+        DropLoot(slot.itemSO, 1);
+        slot.quantity--;
+        if(slot.quantity <= 0)
+        {
+            slot.itemSO = null;
+        }
+
+        slot.UpdateUI();
+    }
+
+    public void DropLoot(ItemSO itemSO, int quantity)
+    {
+        Loot loot = Instantiate(lootPrefab, player.position, Quaternion.identity).GetComponent<Loot>();
+        loot.Initialize(itemSO, quantity);
     }
 
     public void UseItem(SlotInventory slot)

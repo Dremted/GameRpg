@@ -8,6 +8,7 @@ public class Loot : MonoBehaviour
     public SpriteRenderer sr;
     public ItemSO itemSO;
     public Animator animator;
+    public bool canBePickedUp = true;
 
     public int quantity;
     public static event Action<ItemSO, int> OnItemLooted;
@@ -17,13 +18,12 @@ public class Loot : MonoBehaviour
         if(itemSO == null)
             return;
 
-        sr.sprite = itemSO.itemSprite;
-        this.name = itemSO.name;
+        UpdateApperance();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag("Player") && canBePickedUp == true)
         {
             animator.Play("anim_itemGet");
             OnItemLooted?.Invoke(itemSO, quantity);
@@ -31,4 +31,26 @@ public class Loot : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            canBePickedUp = true;
+        }
+    }
+
+    private void UpdateApperance()
+    {
+        sr.sprite = itemSO.itemSprite;
+        this.name = itemSO.name;
+
+    }
+
+    public void Initialize(ItemSO itemSO, int quantity)
+    {
+        this.itemSO = itemSO;
+        this.quantity = quantity;
+        canBePickedUp = false;
+        UpdateApperance();
+    }
 }

@@ -15,6 +15,7 @@ MonoBehaviour:
   itemName: Mushroom
   itemDescription: It`s mushroom?
   itemSprite: {fileID: 21300000, guid: 777f6988aca01e1428de13c197cc6b7c, type: 3}
+  stackSize: 4
   isGold: 0
   currentHealth: 0
   maxHealth: 0
