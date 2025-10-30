@@ -15,9 +15,26 @@ public class SlotInventory : MonoBehaviour, IPointerClickHandler
     public TMP_Text quantityText;
     [SerializeField]private ManagerInventory inventoryManager;
 
+    private static ShopManager activeShop;
+
     private void Start()
     {
         inventoryManager = GetComponentInParent<ManagerInventory>();
+    }
+
+    private void OnEnable()
+    {
+        ShopManager.OnShopStateChange += HandleShopStateChanged;
+    }
+    private void OnDisable()
+    {
+        ShopManager.OnShopStateChange -= HandleShopStateChanged;
+    }
+
+    public void HandleShopStateChanged(ShopManager shopManager, bool isOpen)
+    {
+        activeShop = isOpen ? shopManager : null;
+
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -26,10 +43,19 @@ public class SlotInventory : MonoBehaviour, IPointerClickHandler
         {
             if (eventData.button == PointerEventData.InputButton.Left)
             {
-                if (itemSO.currentHealth > 0 && ManagerStatsPlayer.Instance.currentHealth >= ManagerStatsPlayer.Instance.maxHealth)
-                    return;
+                if (activeShop != null)
+                {
+                    activeShop.SellItem(itemSO);
+                    quantity--;
+                    UpdateUI();
+                }
+                else
+                {
+                    if (itemSO.currentHealth > 0 && ManagerStatsPlayer.Instance.currentHealth >= ManagerStatsPlayer.Instance.maxHealth)
+                        return;
 
-                inventoryManager.UseItem(this);
+                    inventoryManager.UseItem(this);
+                }
             }
             else if (eventData.button == PointerEventData.InputButton.Right)
             {
@@ -41,6 +67,9 @@ public class SlotInventory : MonoBehaviour, IPointerClickHandler
 
     public void UpdateUI()
     {
+        if(quantity <= 0)
+            itemSO = null;
+
         if (itemSO != null)
         {
             itemImage.sprite = itemSO.itemSprite;
